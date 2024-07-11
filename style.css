@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -11,6 +11,12 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+}
+
+header .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 header h1 {
@@ -27,13 +33,19 @@ nav {
     background: #e8491d;
     color: #ffffff;
     padding: 10px 0;
-    text-align: center;
+}
+
+nav .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -44,14 +56,22 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
     padding: 20px;
     background-color: #ffffff;
-    margin: 20px;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
 
 section {
@@ -60,7 +80,7 @@ section {
 
 section h2 {
     color: #35424a;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 10px;
 }
 
@@ -78,10 +98,14 @@ section ul li {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     background: #35424a;
     color: #ffffff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-top: 20px;
+}
+
+footer .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
